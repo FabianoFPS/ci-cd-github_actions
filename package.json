@@ -1,0 +1,30 @@
+{
+  "name": "@fabianofps/ci-cd-github_actions",
+  "version": "1.0.0",
+  "description": "- [About](#about)\r - [Getting Started](#getting_started)\r - [Usage](#usage)\r - [Contributing](../CONTRIBUTING.md)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianoFPS/ci-cd-github_actions.git"
+  },
+  "keywords": [],
+  "author": "Fabiano F. P. Stoffel <ffpthai@gmail.com> (https://www.linkedin.com/in/fabianostoffel/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabianoFPS/ci-cd-github_actions/issues"
+  },
+  "homepage": "https://github.com/FabianoFPS/ci-cd-github_actions#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6"
+  }
+}
